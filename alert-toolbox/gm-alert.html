@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Alert</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="gm-alert.css">
+</head>
+
+<body>
+    <header class="container">
+        <h1>Custom Alert</h1>
+    </header>
+    <section class="container">
+        <article>
+            <p>Vous pouvez utiliser votre propre alert customisé ;)</p>
+            <p>Ci-dessous, les technos utilisées : </p>
+            <ul class="gm-text-color">
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+            </ul>
+        </article>
+        <article class="margin-top-xm">
+            <p>Quelques exemples de composant alert :</p>
+
+            <div class="gm-alert gm-info">
+                <span class="gm-closebtn">&times;</span>
+                <strong>Info!</strong> Indication ou changement d'action.
+            </div>
+
+            <div class="gm-alert">
+                <span class="gm-closebtn">&times;</span>
+                <strong>Danger!</strong> Action dangereuse ou négative.
+            </div>
+
+            <div class="gm-alert gm-success">
+                <span class="gm-closebtn">&times;</span>
+                <strong>Success!</strong> Action positive ou réussite.
+            </div>
+
+            <div class="gm-alert gm-warning">
+                <span class="gm-closebtn">&times;</span>
+                <strong>Warning!</strong> Requiert de l'attention.
+            </div>
+
+        </article>
+    </section>
+
+
+    <section class="container margin-top-xm">
+        <article>
+            <p>Vous pouvez utiliser les alerts bootstrap qui sont aussi très utile (gain de productivité...)</p>
+            <p>Voici un exemples ci-dessous.</p>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Hello world !</strong> Vous devez dire bonjour à tous le monde dès aujourd'hui <(^__^)>.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </article>
+    </section>
+
+    <footer class="container margin-top-xs gm-border-top">
+            <p class="float-right footer-text">© The sky is not the limit  Glenn Milingui, GM vawes center <(^__^)></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="gm-alert.js"></script>
+</body>
+
+</html>
